@@ -1,0 +1,23 @@
+@import "../_general/header.css";
+@media screen and (max-width: 768px){
+    header ul{
+        flex-direction: row;
+        justify-content: center;
+    }
+    header .headerTop{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    header .searchBlock{
+        order: 1;
+        margin-top: 10px;
+        max-width: none;
+    }
+    header .headerTop h1 > img {
+        width: 120px;
+        margin-right: 0px;
+    }
+    header nav ul li .navLink{
+        margin: 0px 20px;
+    }
+}

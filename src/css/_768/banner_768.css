@@ -1,0 +1,25 @@
+@import "../_general/banner.css";
+@media screen and (max-width: 768px){
+    .mainBanner{
+        height: 630px;
+    }
+    .mainBanner .bannerInformation{
+        justify-content: flex-end;
+    }
+    .mainBanner .bannerInformation .bannerTitle{
+        font-size: 62px;
+    }
+    .mainBanner .bannerInformation .bannerCopy{
+        width: 100%;
+        font-size: 19px;
+        margin-bottom: 40px;
+    }
+    .mainBanner .bannerInformation .bannerButton{
+        width: 100%;
+        font-size: 15px;
+        border: 2px solid var(--colorPrimary);
+    }
+    .mainBanner .bannerImg{
+        height: 50%;
+    }
+}

@@ -1,0 +1,54 @@
+@import "../styles.css";
+
+header{
+    background-color: var(--colorWhite);
+    border-bottom: 5px solid var(--colorGray1);
+    padding: 20px 0px 10px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header .headerTop{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header .headerTop h1 {
+    width: fit-content;
+}
+header .headerTop h1 > img {
+    width: 160px;
+    margin-right: 20px;
+}
+
+header .headerTop ul li a{
+    margin-left: 20px;
+}
+header .headerTop ul li a > img{
+    padding: 2px;
+    width: 30px;
+    border-radius: 3px;
+}
+header .headerTop ul li a:hover > img{
+    background-color: var(--colorGray1);
+}
+
+/* Nav */
+header nav{
+    margin-top: 20px;
+}
+header nav ul li .navLink{
+    color: var(--colorGray3);
+    margin-right: 30px;
+    text-decoration: none;
+}
+header nav ul li .navLink:hover{
+    color: var(--colorBlack);
+}
+header nav ul li .navLinkRed{
+    color: var(--colorSecondaryRed) !important;
+}

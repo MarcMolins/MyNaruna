@@ -1,0 +1,48 @@
+[
+    {
+        "categoryName": "Hombre",
+        "subcategory": [
+            "subcategoría 1",
+            "subcategoría 2",
+            "subcategoría 3",
+            "subcategoría 4",
+            "subcategoría 5",
+            "subcategoría 6",
+            "subcategoría 7",
+            "subcategoría 8"
+        ],
+        "url": "/#"
+    },
+    {
+        "categoryName": "Mujer",
+        "subcategory": [
+            "subcategoría 1",
+            "subcategoría 2",
+            "subcategoría 3",
+            "subcategoría 4",
+            "subcategoría 5",
+            "subcategoría 6",
+            "subcategoría 7",
+            "subcategoría 8"
+        ],
+        "url": "/#"
+    },
+    {
+        "categoryName": "Niños",
+        "subcategory": [
+            "subcategoría 1",
+            "subcategoría 2",
+            "subcategoría 3",
+            "subcategoría 4",
+            "subcategoría 5",
+            "subcategoría 6",
+            "subcategoría 7",
+            "subcategoría 8"
+        ],
+        "url": "/#"
+    },
+    {
+        "categoryName": "Rebajas",
+        "url": "/#"
+    }
+]

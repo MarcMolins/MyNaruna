@@ -1,0 +1,58 @@
+[
+    {
+        "photo": "175_88818_NEGRO_5.png",
+        "brand": "Victoria",
+        "productName": "Zapatillas altas",
+        "price": "39,95",
+        "discountPrice": "26,95"
+    },
+    {
+        "photo": "175_88818_NEGRO_5.png",
+        "brand": "nombreMarca 2",
+        "productName": "Nombre de producto 2 hdgfd fdufd fdufd feuf seuftsed fwufas fyas f",
+        "price": "39,952",
+        "discountPrice": "24,952"
+    },
+    {
+        "photo": "175_88818_NEGRO_5.png",
+        "brand": "nombreMarca 1",
+        "productName": "Nombre de producto 1",
+        "price": "39,95",
+        "discountPrice": "24,95"
+    },
+    {
+        "photo": "175_88818_NEGRO_5.png",
+        "brand": "nombreMarca 2",
+        "productName": "Nombre de producto 2",
+        "price": "39,952",
+        "discountPrice": "24,952"
+    },
+    {
+        "photo": "175_88818_NEGRO_5.png",
+        "brand": "nombreMarca 1",
+        "productName": "Nombre de producto 1",
+        "price": "39,95",
+        "discountPrice": "24,95"
+    },
+    {
+        "photo": "175_88818_NEGRO_5.png",
+        "brand": "nombreMarca 2",
+        "productName": "Nombre de producto 2",
+        "price": "39,952",
+        "discountPrice": "24,952"
+    },
+    {
+        "photo": "175_88818_NEGRO_5.png",
+        "brand": "nombreMarca 1",
+        "productName": "Nombre de producto 1",
+        "price": "39,95",
+        "discountPrice": "24,95"
+    },
+    {
+        "photo": "175_88818_NEGRO_5.png",
+        "brand": "nombreMarca 2",
+        "productName": "Nombre de producto 2",
+        "price": "39,952",
+        "discountPrice": "24,952"
+    }
+]

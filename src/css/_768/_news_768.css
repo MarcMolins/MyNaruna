@@ -1,0 +1,9 @@
+@import "../_general/_news.css";
+@media screen and (max-width: 768px){
+    .newsBlock{
+        width: 90% !important;
+    }
+    .newsBlock .newsSubtitle{
+        margin-top: 20px;
+    }
+}

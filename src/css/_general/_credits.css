@@ -1,0 +1,11 @@
+@import "../styles.css";
+
+footer .credits{
+    border-top: 2px solid var(--colorWhite);
+    padding: 15px 0px !important;
+}
+footer .credits div > p{
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,13 @@
+@import "../_general/footer.css";
+
+@media screen and (max-width: 768px){
+    footer .footerContent .mainFooterContent nav.footerNav{
+        flex-direction: column;
+    }
+    footer .footerContent .mainFooterContent nav.footerNav > a{
+        margin-bottom: 15px;
+    }
+    footer .footerContent .mainFooterContent nav.footerNav .navSeparator{
+        display: none;
+    }
+}

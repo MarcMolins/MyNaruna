@@ -1,0 +1,109 @@
+@import "../styles.css";
+
+.productList{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.productList > li{
+    margin: 5px;
+    width: 100%;
+    flex: 1 0 20%;
+}
+.productList .prodItemList{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 15px 15px;
+    background-color: var(--colorGray1);
+    transform: translateY(0px);
+    transition: all 0.2s;
+}
+
+.productList .prodItemList .imgProdBlock{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.productList .prodItemList .imgProdBlock .imgProdList{
+    max-height: 100%;
+    max-width: 100%;
+    mix-blend-mode: multiply;
+}
+
+.productList .prodItemInformation{
+    text-align: left;
+}
+.productList .prodItemInformation > a{
+    color: var(--colorPrimary);
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: var(--font);
+}
+.productList .prodItemInformation > h4{
+    font-weight: normal;
+    font-size: 17px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-clamp: 2;
+        -webkit-line-clamp: 2;
+        -moz-line-clamp: 2;
+        -ms-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.productList .prodItemInformation .prodItemBottom{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.productList .prodItemInformation .prodItemBottom .prodItemPriceBlock{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.productList .prodItemInformation .prodItemBottom .prodItemPriceBlock > h6{
+    text-decoration: line-through;
+    color: var(--colorGray3);
+    font-weight: normal;
+    font-size: 15px;
+}
+.productList .prodItemInformation .prodItemBottom .prodItemPriceBlock > h5{
+    font-family: var(--font);
+    color: var(--colorPrimary);
+    font-size: 24px;
+}
+.productList .prodItemInformation .prodItemBottom > input{
+    font-family: var(--fontText);
+    background-color: transparent;
+    color: var(--colorBlack);
+    border: 2px solid var(--colorPrimary);
+    width: 100%;
+    padding: 15px 10px 13px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 0.2s;
+}
+
+.prodItemList:hover{
+    cursor: pointer;
+    transform: translateY(-3px);
+} 
+.prodItemList:hover .prodItemInformation .prodItemBottom > input{
+    color: var(--colorWhite);
+    background-color: var(--colorPrimary);
+    cursor: pointer;
+}  

@@ -1,0 +1,77 @@
+/* import fonts */
+@font-face {
+    font-family: Recoleta;
+    src: url(../fonts/Recoleta-Medium.otf);
+}
+@font-face {
+    font-family: Recoleta;
+    src: url(../fonts/Recoleta-SemiBold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Avenir;
+    src: url(../fonts/AvenirNextLTPro-Regular.otf);
+}
+@font-face {
+    font-family: Avenir;
+    src: url(../fonts/AvenirNextLTPro-Bold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Avenir;
+    src: url(../fonts/AvenirNextLTPro-It.otf);
+    font-style: italic;
+}
+
+
+/* declaration of variables */
+:root{
+    --colorPrimary: #A1765C;
+        --colorPrimary2: #C7A58B;
+        --colorPrimary3: #EBDED4;
+
+    --colorWhite: #FAFAFA;  
+        --colorGray1: #F2F2F2;
+        --colorGray2: #C4C4C4;
+        --colorGray3: #828282;
+    --colorBlack: #241B17;
+    
+    --colorSecondaryRed: #F94E4E;
+    --colorSecondaryGreen: #99BA78;
+
+    --font: Recoleta;
+    --fontText: Avenir;
+
+    --defPadding: 0px 20px
+}
+
+/* General Styles */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#content{
+    background-color: var(--colorPrimary3);
+    font-family: var(--fontText);
+    color: var(--colorBlack);
+    width: 100%;
+    overflow: hidden;
+}
+#content main{
+    background-color: var(--colorWhite);
+}
+#content main > div,
+#content header > div,
+#content footer > div{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: var(--defPadding);
+}
+
+h3{
+    font-family: var(--font);
+    font-size: 24px;
+    line-height: 1;
+}
